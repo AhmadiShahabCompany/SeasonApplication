@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/jan"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="77dp"
+                android:layout_marginRight="20dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:src="@drawable/a"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="198dp"
+                android:layout_marginRight="20dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:src="@drawable/may"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="319dp"
+                android:layout_marginRight="20dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:src="@drawable/b"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="496dp"
+                android:layout_marginRight="20dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:src="@drawable/c"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="617dp"
+                android:layout_marginRight="20dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:text="First quarter"
+                android:textColor="#FF0000"
+                android:textSize="25sp" />
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="77dp"
+                android:background="#4CAF50"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:text="JAN"
+                android:textAlignment="center"
+                android:textColor="#E91E63"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="198dp"
+                android:background="#4CAF50"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:text="FEB"
+                android:textAlignment="center"
+                android:textColor="#E91E63"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="319dp"
+                android:background="#4CAF50"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:text="MAR"
+                android:textAlignment="center"
+                android:textColor="#E91E63"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="440dp"
+                android:layout_marginRight="20dp"
+                android:text="second quarter"
+                android:textColor="#FF0000"
+                android:textColorHighlight="#ff0000"
+                android:textColorLink="#ff0000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="496dp"
+                android:background="#4CAF50"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:text="APR"
+                android:textAlignment="center"
+                android:textColor="#E91E63"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="617dp"
+                android:background="#4CAF50"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:text="MAY"
+                android:textAlignment="center"
+                android:textColor="#E91E63"
+                android:textSize="25sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="20dp"
+                android:background="#ff0000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="475dp"
+                android:layout_marginRight="20dp"
+                android:background="#ff0000" />
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
